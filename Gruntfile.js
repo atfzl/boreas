@@ -11,9 +11,9 @@ module.exports = function(grunt)
 				src: 'src/*.ts',
 				dest: 'lib',
 				options: {
-					basePath: 'src',
 					module: 'commonjs',
-					target: 'es3'
+					target: 'es3',
+					declaration: true
 				}
 			},
 

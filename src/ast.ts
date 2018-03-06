@@ -27,7 +27,7 @@ export interface IASTWalker
 	(ast: T.INode, descend: () => any[], walker?: IASTWalker): any;
 }
 
-interface IPosition
+export interface IPosition
 {
 	line: number;
 	column: number;
