@@ -1,6 +1,5 @@
 .DS_Store
 .project
 .idea
-lib/
 tmp/
 node_modules/
